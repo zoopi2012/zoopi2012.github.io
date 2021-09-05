@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: 'Kiwi Maru', serif;
+  font-size:15px;
+  font-weight: normal
+}
+h1 {
+  margin: 0;
+  margin-top: 30px;
+  line-height: 10px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: normal
+}
+
+.logo img {
+  margin: 0;
+  height: 90px;
+    display: block;
+}
+
+header {
+  display: flex;
+  padding: 0 16px;
+}
+.sp-menu {
+margin-left: auto;
+}
+
+.sp-menu #open{
+  font-size: 40px;
+  line-height: 90px;
+  cursor: pointer;
+}
+
+.sp-menu #open.hide{
+  display: none;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  padding: 64px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+}
+
+nav a{
+  font-family: 'Baloo Tammudu 2', cursive;
+  text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    font-size: 16px;
+}
+
+.overlay.show{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay #close{
+  position: absolute;
+  font-size: 40px;
+  top: 25px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.overlay ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay li{
+  margin-top: 24px;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .3s, transform .3s;
+}
+
+.overlay.show li {
+  opacity: 1;
+  transform: none;
+}
+
+.overlay.show li:nth-child(1){
+  transition-delay: .1s;
+}
+.overlay.show li:nth-child(2){
+  transition-delay: .2s;
+}
+.overlay.show li:nth-child(3){
+  transition-delay: .3s;
+}
+.overlay.show li:nth-child(4){
+  transition-delay: .4s;
+}
+.overlay.show li:nth-child(5){
+  transition-delay: .5s;
+}
+.overlay.show li:nth-child(6){
+  transition-delay: .6s;
+}
+.pc-menu {
+  display: none;
+}
+
+.top img {
+  width: 100%
+}
+
+/* 装飾ここから */
+
+main {
+  background-color: #C2A489;
+  color: #fff;
+  padding: 20px 30px;
+
+}
+.btn2 {
+  font-family: 'Baloo Tammudu 2', cursive;
+  text-decoration: none;
+  text-align: center;
+  background:none;
+  color:white;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 5px 50px 0;
+  line-height: 50px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 7%;
+  margin-top: 7%;
+  font-size: 20px;
+  font-weight: lighter;
+}
+footer {
+  font-family: 'Baloo Tammudu 2', cursive;
+  margin: 0;
+  padding: 50px 30px;
+  text-align: center;
+  background-color: #717171;
+  color: #BBBBBB;
+  line-height: 10px;
+  font-size: 18px;
+}
+footer img {
+  width: 50px;
+  padding: 5px 8px;
+}
+
+.syoukai{
+  margin: 0;
+}
+
+.top img {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%
+}
+
+
+@media (min-width: 800px) {
+  .pc-menu {
+    display: block;
+    margin-left: auto;
+  }
+
+  .pc-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .pc-menu a {
+    display: block;
+    width: 80px;
+    line-height: 100px;
+    text-align: center;
+  }
+  .pc-menu img {
+    margin: 0;
+    padding: 30px 0px 0px 0px;
+    width: 30px;
+  }
+
+
+.sp-menu{
+  display: none;
+ }
+
+
+ 
+ /* main {
+  display: flex;
+ } */
+
+ footer img {
+  padding: 5px 8px;
+  width: 40px;
+}
+
+
+
+}
+
+
