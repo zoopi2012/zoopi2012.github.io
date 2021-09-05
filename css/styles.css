@@ -1,0 +1,470 @@
+
+
+body {
+margin: 0;
+font-family: 'Kiwi Maru', serif;
+font-weight: normal
+}
+
+.btn2{
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: normal
+}
+.btn3{
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: normal
+}
+.btn4{
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: normal
+}
+
+h1{
+  margin: 0;
+  margin-top: 50px;
+  line-height: 20px;
+  list-style: none;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: normal
+}
+
+
+
+.logo img {
+  margin: 0;
+  height: 90px;
+    display: block;
+}
+
+header {
+  display: flex;
+  padding: 0 16px;
+}
+.sp-menu {
+margin-left: auto;
+}
+
+.sp-menu #open{
+  font-size: 40px;
+  line-height: 90px;
+  cursor: pointer;
+}
+
+.sp-menu #open.hide{
+  display: none;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  padding: 64px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+}
+
+nav a{
+  font-family: 'Baloo Tammudu 2', cursive;
+  text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    font-size: 16px;
+}
+
+.overlay.show{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay #close{
+  position: absolute;
+  font-size: 40px;
+  top: 25px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.overlay ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay li{
+  margin-top: 24px;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .3s, transform .3s;
+}
+
+.overlay.show li {
+  opacity: 1;
+  transform: none;
+}
+
+.overlay.show li:nth-child(1){
+  transition-delay: .1s;
+}
+.overlay.show li:nth-child(2){
+  transition-delay: .2s;
+}
+.overlay.show li:nth-child(3){
+  transition-delay: .3s;
+}
+.overlay.show li:nth-child(4){
+  transition-delay: .4s;
+}
+.overlay.show li:nth-child(5){
+  transition-delay: .5s;
+}
+.overlay.show li:nth-child(6){
+  transition-delay: .6s;
+}
+
+.pc-menu {
+  display: none;
+}
+
+
+
+.top img {
+  width: 100%;
+  vertical-align:top;
+}
+
+
+main {
+  margin: 0;
+  padding: 30px 30px;
+  background-color: #C2A489;
+  color: #fff;
+  }
+
+  .btn2{
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-decoration: none;
+    text-align: center;
+    background:none;
+    color:white;
+    border: 2px solid white;
+    padding: 5px 50px 0px;
+    line-height: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 7%;
+    font-size: 20px;
+    
+  }
+
+  main p {
+    margin-bottom: 5%;
+  }
+  
+  .aboutimg img{
+    display: block;
+    margin: auto ;
+    width: 85vw;
+  }
+
+ 
+ 
+
+  .conteiner2{
+    margin: 30px;
+  }
+
+
+  .box2{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ffffff;
+    color: rgb(68, 68, 68);
+  }
+.box2 p {
+  padding: 0 0 15px 0
+}
+
+  .character img{
+    display: none;
+    /* margin: 0 ;
+    width: 50vw; */
+  }
+
+  .character2 img{
+    display: inline;
+    display: block;
+    margin: auto ;
+    width: 85vw;
+  }
+
+  .btn3{
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-decoration: none;
+    text-align: center;
+    background:none;
+    color:rgb(85, 85, 85);
+    border: 2px solid rgb(123, 123, 123);
+    padding: 5px 50px 0;
+    line-height: 50px;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+  }
+
+  /* font-family: 'Baloo Tammudu 2', cursive;
+    text-decoration: none;
+    text-align: center;
+    background:none;
+    color:white;
+    border: 2px solid white;
+    padding: 5px 50px 0px;
+    line-height: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 7%;
+    font-size: 20px; */
+  
+  /* .box2 {
+    margin: 0;
+    height: 10rem;
+    line-height: 1.8;
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 3% ;
+    margin-bottom: 3%;
+  } */
+
+
+.kabin img{
+    display: block;
+    margin: auto ;
+    width: 85vw;
+}
+
+  .order{
+    margin: 0;
+    padding: 30px 30px;
+    background-color: #FEE7E2;
+    color: rgb(109, 109, 109);
+  }
+
+  .btn4{
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-decoration: none;
+    text-align: center;
+    background:none;
+    color:rgb(109, 109, 109);
+    border: 2px solid rgb(123, 123, 123);
+    padding: 5px 50px 0;
+    line-height: 50px;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+  }
+.box3 h1{
+  padding: 15px 0 0 0
+}
+  .box3 p {
+    padding: 0 0 15px 0
+  }
+  
+  /* font-family: 'Baloo Tammudu 2', cursive;
+    text-decoration: none;
+    text-align: center;
+    background:none;
+    color:white;
+    border: 2px solid white;
+    padding: 5px 50px 0px;
+    line-height: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 7%;
+    font-size: 20px; */
+
+
+  footer {
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #717171;
+    color: #BBBBBB;
+    line-height: 10px;
+    font-size: 18px;
+  }
+  footer img {
+    width: 50px;
+    padding: 5px 8px;
+  }
+
+  
+  
+
+@media (min-width: 800px) {
+  .pc-menu {
+    display: block;
+    margin-left: auto;
+  }
+
+  .pc-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .pc-menu a {
+    display: block;
+    width: 80px;
+    line-height: 100px;
+    text-align: center;
+  }
+  .pc-menu img {
+    margin: 0;
+    padding: 32px 0px 0px 0px;
+    width: 30px;
+  }
+
+
+.sp-menu{
+  display: none;
+ }
+
+ main {
+  display: flex;
+ }
+
+ .box1{ 
+  flex: 1;
+  line-height: 1.8;
+  width: 80%;
+  margin:  auto  ;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.aboutimg img{
+  display: block;
+  margin: 30px ;
+  width: 30vw;
+}
+
+
+.conteiner2{
+  margin: 0px;
+  display: flex;
+}
+
+.shop{
+  flex: 1;
+}
+
+
+
+.shop1{
+  margin: 30% 70px 10% 70px;
+}
+
+
+/* .conteiner2{ */
+  /* display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr  ;
+  
+  background-color: rgb(255, 255, 255);
+  color: rgb(85, 85, 85);
+  margin: 0; */
+  /* display: flex;
+} */
+
+
+
+.character img{
+  display: inline;
+  margin: 0 ;
+  width: 50vw;
+  vertical-align:top;
+}
+
+.character2 img{
+  display: none;
+}
+
+
+.btn3{
+  text-decoration: none;
+  text-align: center;
+  background:none;
+  color:rgb(85, 85, 85);
+  border: 2px solid rgb(123, 123, 123);
+  padding: 5 50px 0;
+  line-height: 50px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* .box2 {
+  margin: 0;
+  height: 10rem;
+  line-height: 1.8;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3% ;
+} */
+
+.order{
+  margin: 0;
+  padding: 30px 30px;
+  background-color: #FEE7E2;
+  color: rgb(109, 109, 109);
+  display: flex;
+}
+
+.kabin img {
+  display: block;
+  margin: 30px ;
+  width: 35vw;
+}
+
+.box3{
+  flex: 1;
+  line-height: 1.8;
+  width: 80%;
+  margin:  auto  ;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.btn4{
+  text-decoration: none;
+  text-align: center;
+  background:none;
+  color:rgb(109, 109, 109);
+  border: 2px solid rgb(123, 123, 123);
+  padding: 5 50px 0;
+  line-height: 50px;
+  margin: 0 auto;
+  display: block;
+}
+
+footer img {
+  width: 40px;
+  padding: 5px 8px;
+}
+
+
+
+  
+
+
+}
