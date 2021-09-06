@@ -139,6 +139,13 @@ nav a{
 }
 
 
+.gallery {
+  margin: 0;
+  padding: 30px 30px;
+  background-color: #C2A489;
+  color: #fff;
+  }
+
 main {
   margin: 0;
   padding: 30px 30px;
@@ -172,6 +179,36 @@ main {
     width: 85vw;
   }
 
+  .gallery img{
+    display: block;
+    margin: auto ;
+    width: 85vw;
+  }
+
+  .gallery{
+    margin: 0;
+    padding: 30px 30px;
+    background-color: #DBDBDB;
+    color: rgb(109, 109, 109);
+    }
+
+
+    .btn5{
+      font-family: 'Baloo Tammudu 2', cursive;
+      text-decoration: none;
+      text-align: center;
+      background:none;
+      color:rgb(109, 109, 109);
+      border: 2px solid rgb(123, 123, 123);
+      padding: 5px 50px 0;
+      line-height: 50px;
+      margin: 0 auto;
+      display: block;
+      font-size: 20px;
+      margin-bottom: 7%;
+      margin-top: 50px;
+      
+    }
  
  
 
@@ -358,6 +395,28 @@ main {
 }
 
 
+.gallery {
+  display: flex;
+ }
+
+ .box4{ 
+  flex: 1;
+  line-height: 1.8;
+  width: 80%;
+  margin:  auto  ;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.gallery img{
+  display: block;
+  margin: 30px ;
+  width: 30vw;
+}
+
+
 .conteiner2{
   margin: 0px;
   display: flex;
@@ -426,6 +485,7 @@ main {
   background-color: #FEE7E2;
   color: rgb(109, 109, 109);
   display: flex;
+  flex-flow: row-reverse;
 }
 
 .kabin img {
