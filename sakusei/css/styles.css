@@ -114,6 +114,9 @@ background-color: #f5f5f5;
   .overlay.show li:nth-child(6){
     transition-delay: .6s;
   }
+  .overlay.show li:nth-child(7){
+    transition-delay: .7s;
+  }
   
   .pc-menu {
     display: none;
